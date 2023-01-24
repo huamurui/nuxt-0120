@@ -745,7 +745,7 @@ const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId
 const _sfc_main$1 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_NuxtWelcome = __nuxt_component_0;
-  _push(`<div${ssrRenderAttrs(_attrs)}>`);
+  _push(`<div${ssrRenderAttrs(_attrs)}><h2>aaaa</h2>`);
   _push(ssrRenderComponent(_component_NuxtWelcome, null, null, _parent));
   _push(`</div>`);
 }
@@ -760,7 +760,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const ErrorComponent = defineAsyncComponent(() => import('./_nuxt/error-component.cbfc36a5.mjs').then((r) => r.default || r));
+    const ErrorComponent = defineAsyncComponent(() => import('./_nuxt/error-component.b89c1f97.mjs').then((r) => r.default || r));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     provide("_route", useRoute());
