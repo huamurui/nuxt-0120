@@ -60,3 +60,12 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 [https://github.com/strapi/strapi/issues/12129]
 
 > run `yarn build` before `yarn develop` or `npm run develop` to start the server if you are first to here or had updated static data.
+
+email:huamurui@outlook.com
+pass:Aa000000
+
+可以在
+/my-strapi/.tmp
+下找到默认的SQLite数据库文件 
+
+从管理员用户、数据/接口类型到具体的数据内容都在这里。
