@@ -57,3 +57,6 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
 
 
+[https://github.com/strapi/strapi/issues/12129]
+
+> run `yarn build` before `yarn develop` or `npm run develop` to start the server if you are first to here or had updated static data.
