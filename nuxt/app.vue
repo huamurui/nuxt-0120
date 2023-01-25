@@ -2,7 +2,8 @@
   <div>
     <h2>aaa</h2>
     <p>{{ data }}</p>
-    <!-- <p>{{ response }}</p> -->
+    <p>{{ response }}</p>
+    <p>{{ re1 }}</p>
   </div>
 </template>
 
@@ -17,7 +18,12 @@ interface Meow {
   article: string
 }
 
-// const { find } = useStrapi()
-// const response = await find<Meow>('meows')
+const { find, findOne } = useStrapi()
+const response = await find<Meow>('meows')
+const re1 = await findOne<Meow>('meows', 1)
+
+// const route = useRoute()
+// const re = await findOne<Meow>('meows', route.params.id)
+
 
 </script>

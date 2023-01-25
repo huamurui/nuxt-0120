@@ -69,3 +69,12 @@ pass:Aa000000
 下找到默认的SQLite数据库文件 
 
 从管理员用户、数据/接口类型到具体的数据内容都在这里。
+
+创建完接口记得在 setting->permission plugin->public 里授一下权...因为没看完文档又搞半天。不是strapi的问题也不是nuxt的问题，虽然它们issue确实都还特别多，但还是我太笨蛋。
+
+具体而言，strapi这个仓库里，我把
+.tmp
+build(这个好像不需要...我删了哦)
+.env
+这些文件都从 gitignore 中移除了，所以，直接用...
+还有一件事，现在的这个strapi，如果用sqlite数据库，有一个插件 better-sqlite 在node18下可能是不支持的，把node版本换成16可以。
