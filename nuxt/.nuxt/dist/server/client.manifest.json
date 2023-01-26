@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/workspaces/nuxt-0120/nuxt/node_modules/nuxt/dist/app/entry.mjs": {
+  "E:/GitHub/vue3_and_so_on/nuxt-0120/nuxt/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/workspaces/nuxt-0120/nuxt/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "E:/GitHub/vue3_and_so_on/nuxt-0120/nuxt/node_modules/nuxt/dist/app/entry.mjs"
   }
 }
